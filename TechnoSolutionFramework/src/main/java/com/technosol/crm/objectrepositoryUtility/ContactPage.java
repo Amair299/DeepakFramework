@@ -58,6 +58,10 @@ public WebElement getSave() {
 public WebElement getHeaderMsg() {
 	return headerMsg;
 }
-   
+  @FindBy(name="contact")
+  private WebElement contactN;
+   public WebElement getContactN() {
+	   return contactN;
+   }
    
 }
